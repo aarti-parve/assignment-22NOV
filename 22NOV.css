@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://bit.ly/3l9E1XL');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contactList {
+    overflow: scroll;
+    height: 400px;
+    width: 300px;
+    border: 2px solid #4a4766;
+    padding: 2px;
+}
+
+.upper-nav {
+    position: fixed;
+    background-color: beige;
+    width: 285px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.nav {
+    background-color: beige;
+    position: sticky;
+    top: 60px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
